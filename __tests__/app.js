@@ -2,7 +2,7 @@ import React from 'react'
 import {render, screen, waitFor} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from '../app'
-/*
+
 test('Premier scénario : cas passant', async () => {
   render(<App />)
 
@@ -79,7 +79,7 @@ test('Premier scénario : cas passant', async () => {
 
   // screen.debug()
 })
-*/
+
 
 test('Second scénario : cas non passant', async () => {
   render(<App />)
